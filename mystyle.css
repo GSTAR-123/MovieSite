@@ -1,0 +1,77 @@
+ul > li > a{
+    text-decoration: white;
+    color: white;
+    padding: 5px;
+}
+
+ul > li > a:hover{
+    background-color: #afcb08;
+    color: black;
+    transition: 500ms ease-in;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.image-background{
+    background-image:linear-gradient(to Bottom, rgba(0,0,0,0), #151515),
+     url(./img/f-1.jpg);
+}
+
+.green-button{
+    background-color:#afcb08 ;
+    color: #151515;
+    font-weight: bold;
+}
+
+.green-button:hover{
+    background-color: #151515;
+    color: #afcb08;
+    font-weight: bold;
+    transition: 1s ease-out;
+}
+
+.black-background{
+    background-color: #151515;
+}
+
+.movie-item{
+    position: relative;
+    margin-right: 30px;
+    opacity: 0.5;
+}
+
+.movie-item:hover{
+    background-color: #afcb08;
+    border-radius: 30px;
+    transform: scale(1.2);
+    margin: 0 30px;
+    opacity: 1;
+    transition: all1s ease-in-out;
+    cursor: pointer;
+}
+
+.movie-image{
+    border-radius: 20px;
+    border-color: #afcb08;
+    width: 150px;
+}
+
+.image-background2{
+    background-image:linear-gradient(to Bottom, rgba(0,0,0,0), #151515),
+     url(./img/f-t-2.png);
+}
+
+div > a{
+    text-decoration: white;
+    color: rgb(160, 156, 156);
+    padding: 5px;
+}
+
+div > a:hover{
+    background-color: #151515;
+    color: #afcb08;
+    font-weight: bold;
+    transition: 1s ease-out;
+}
+
